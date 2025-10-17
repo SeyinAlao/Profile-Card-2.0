@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lexend:wght@100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+    <main class="page-container">
+      <article data-testid="test-profile-card" class="profile-card">
+        <div class="card-inner">
+          <figure class="avatar-container">
+            <img
+              src="images/avatar.jpg"
+              alt="Profile picture of Seyin Alao"
+              data-testid="test-user-avatar"
+              class="avatar-image"
+            />
+          </figure>
+
+
+          <div class="content-section">
+            <header>
+              <h2 data-testid="test-user-name">Oluwaseyin Alao</h2>
+              <span
+                id="current-time"
+                data-testid="test-user-time"
+                class="current-time"
+              >
+                <!-- Time will appear here -->
+              </span>
+            </header>
+
+            <p data-testid="test-user-bio" class="bio">
+              Front-end developer with a passion for creating elegant solutions
+              to complex problems. I love building user-friendly applications
+              and exploring new technologies. When I'm not coding, you'll find
+              me outdoors, playing games or immersed in a good movie.
+            </p>
+
+            <nav
+              data-testid="test-user-social-links"
+              aria-label="Social media links"
+              class="social-links"
+            >
+              <h3>Connect with me</h3>
+              <ul class="social-list">
+                <li>
+                  <a
+                    data-testid="test-user-social-twitter"
+                    href="https://twitter.com/seyinalao"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Twitter</a
+                  >
+                </li>
+                <li>
+                  <a
+                    data-testid="test-user-social-github"
+                    href="https://github.com/SeyinAlao"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >GitHub</a
+                  >
+                </li>
+                <li>
+                  <a
+                    data-testid="test-user-social-linkedin"
+                    href="https://linkedin.com/in/SeyinAlao"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >LinkedIn</a
+                  >
+                </li>
+              </ul>
+            </nav>
+
+            <div class="lists-container">
+              <section class="list-section">
+                <h3>Hobbies</h3>
+                <ul data-testid="test-user-hobbies" class="hobby-list">
+                  <li>Aura Farming</li>
+                  <li>Watching Movies</li>
+                  <li>Playing Games</li>
+                </ul>
+              </section>
+
+              <section class="list-section">
+                <h3>Dislikes</h3>
+                <ul data-testid="test-user-dislikes" class="dislike-list">
+                  <li>Bugs!!!!</li>
+                  <li>Messy Environment</li>
+                </ul>
+              </section>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <script src="main.js" defer></script>
+  </body>
+</html>
