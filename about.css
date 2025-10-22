@@ -1,0 +1,100 @@
+/* Base Page Styling */
+
+
+body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #1e1e1e;
+  line-height: 1.7;
+  margin: 0;
+  padding:100px 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-page {
+  display: flex;
+  justify-content: center;
+   align-items: center;
+   min-height: calc(100vh - 100px);
+   padding: 20px;
+}
+
+.about-container {
+  background: #fff;
+  max-width: 850px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+  padding: 40px 50px;
+}
+
+/* Header */
+.about-header {
+
+  margin-bottom: 30px;
+}
+
+.about-header h1 {
+  font-size: 1.8rem;
+  color: #222;
+  margin-bottom: 8px;
+}
+
+.about-header p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.about-section {
+  border-top: 1px solid #e5e5e5;
+  padding-top: 25px;
+  margin-top: 25px;
+}
+
+.about-section h2 {
+  font-size: 1.3rem;
+  color: #222;
+  margin-bottom: 12px;
+}
+
+.about-section p {
+  margin-bottom: 12px;
+}
+
+/* Lists */
+.about-list {
+  margin: 10px 0 0 20px;
+  padding-left: 0;
+}
+
+.about-list li {
+  margin-bottom: 8px;
+}
+
+/* Quote Section */
+.future-note {
+  background: #f9fafc;
+  border-left: 5px solid #0078d4;
+  padding: 20px 25px;
+  border-radius: 6px;
+  color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-container {
+    padding: 25px;
+  }
+
+  .about-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .about-section h2 {
+    font-size: 1.1rem;
+  }
+}
