@@ -18,4 +18,38 @@ In this stage, I added two new pages:
 # Profile Card 2.0 — Stage 0 🧱
 
 ## Overview
-[Keep your original Stage 0 description here, explaining your card design and structure.]
+# 🌟 Profile Card Portfolio
+
+A simple, elegant **Profile Card Portfolio** built with **HTML**, **CSS**, and **JavaScript**.  
+This project showcases a personal profile page with navigation, a profile card, bio, social links, and sections for hobbies and dislikes.
+
+---
+
+## 🖥️ Demo
+> You can view the project by opening `index.html` in your browser.
+
+---
+
+## 📸 Preview
+
+![Profile Card Preview](images/avatar.jpg)
+
+---
+
+## 🧩 Features
+- Responsive **navigation bar** with links to About and Contact pages  
+- Clean **profile card** layout displaying name, bio, and social links  
+- Dynamic **current time** display using JavaScript  
+- Organized **lists** for hobbies and dislikes  
+- Semantic and accessible HTML structure  
+- Custom **Google Fonts** and consistent styling
+
+---
+
+## 🛠️ Technologies Used
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6)**
+- **Google Fonts**
+
+
