@@ -1,44 +1,21 @@
-# Stage 0 — Profile Card Task
+# Profile Card 2.0 — Stage 1 🚀
 
-This project is part of the **HNG Internship Stage 0 task**, which involves building a responsive, accessible **Profile Card** component using only **plain HTML, CSS, and JavaScript**.
+## Overview
+This is the continuation of my Stage 0 task.  
+In this stage, I added two new pages:
+- **About Me Page** — with semantic HTML sections and reflections.  
+- **Contact Page** — includes form validation using JavaScript.
 
----
-
-## 🔍 Overview
-
-The profile card displays:
-- A user’s name
-- A profile photo
-- A short bio
-- The current time (in milliseconds)
-- Social media links
-- Lists of hobbies and dislikes
-
-It is **responsive**, **semantic**, and **accessible**, following modern frontend standards.
+## Features Added in Stage 1
+- Responsive layout using Flexbox and media queries.
+- Form validation (required fields, valid email, message ≥ 10 characters).
+- Accessibility improvements (labels, aria-describedby).
+- Semantic HTML (`main`, `section`, `ul`, `p`, `h2`).
+- Added success/error messages for user feedback.
 
 ---
 
-## 🧩 Features
+# Profile Card 2.0 — Stage 0 🧱
 
-- Semantic HTML structure (`<article>`, `<figure>`, `<nav>`, `<section>`)
-- Responsive design using **Flexbox** and **media queries**
-- Dynamic time display powered by `Date.now()`
-- Accessible links with keyboard navigation and focus states
-- Fully styled with **plain CSS** (no frameworks)
-- All elements include `data-testid` attributes for automated testing
-
----
-
-## 🧠 Technologies Used
-
-- **HTML5**
-- **CSS3 (Flexbox + Media Queries)**
-- **Vanilla JavaScript (Date.now)**
-
----
-
-## 🚀 How to Run Locally
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/<your-username>/profile-card-stage0.git
+## Overview
+[Keep your original Stage 0 description here, explaining your card design and structure.]
