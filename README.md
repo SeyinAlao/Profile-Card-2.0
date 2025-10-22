@@ -26,7 +26,7 @@ This project showcases a personal profile page with navigation, a profile card, 
 ---
 
 ## 🖥️ Demo
-> You can view the project by opening `index.html` in your browser.
+> You can view the project by opening `(https://seyinalao.github.io/Profile-Card-2.0/)` in your browser.
 
 ---
 
