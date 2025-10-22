@@ -30,12 +30,6 @@ This project showcases a personal profile page with navigation, a profile card, 
 
 ---
 
-## 📸 Preview
-
-![Profile Card Preview](images/avatar.jpg)
-
----
-
 ## 🧩 Features
 - Responsive **navigation bar** with links to About and Contact pages  
 - Clean **profile card** layout displaying name, bio, and social links  
